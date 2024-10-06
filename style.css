@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #e6e6e6;
+}
+
+#all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 693px;
+    flex: 0.5 1 auto;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.stuff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
