@@ -18,6 +18,12 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    width: 500px;
+    height: 693px;
     
 }
 
@@ -25,5 +31,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: auto;
+    height: auto;
     
 }
