@@ -8,7 +8,7 @@ html{
 
 #all{
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     height: 693px;
     flex: 0.5 1 auto;
@@ -18,12 +18,14 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('img_girl.jpg');
+    /*
+    background-image: url(image.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: auto;
     background-size: auto;
-    width: 500px;
-    height: 693px;
+    */
+    width: 800px;
+    height: auto;
     
 }
 
