@@ -9,23 +9,27 @@ html{
 #all{
     display: flex;
     align-items: left;
-    justify-content: center;
+    justify-content: left;
     height: 693px;
     flex: 0.5 1 auto;
+    margin: 0;
+    padding: 0;
 }
 
 .photo{
     display: flex;
     align-items: center;
     justify-content: center;
-    /*
+    
     background-image: url(image.jpg);
     background-repeat: no-repeat;
     background-attachment: auto;
     background-size: auto;
-    */
-    width: 800px;
-    height: auto;
+    
+    width: 1080px;
+    height: 1256px;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -35,5 +39,7 @@ html{
     justify-content: center;
     width: auto;
     height: auto;
+    margin: 0;
+    padding: 0;
     
 }
