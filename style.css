@@ -18,14 +18,34 @@ html{
 
 .photo{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
+    /*justify-content: top;*/
     background-image: url(image.jpg);
     width: 720px;
     height: 1080px;
     margin: 0;
     padding: 0;
     
+}
+
+.header{
+    background-color: black;
+    color: #e6e6e6;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 75px;
+    top: 5%;
+    left: 16%;
+}
+
+.footer{
+    background-color: black;
+    color: #e6e6e6;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 25px;
+    top: 1045px;
+    left: 12%;
 }
 
 .stuff{
