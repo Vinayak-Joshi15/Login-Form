@@ -20,14 +20,9 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     background-image: url(image.jpg);
-    background-repeat: no-repeat;
-    background-attachment: auto;
-    background-size: auto;
-    
-    width: 1080px;
-    height: 1256px;
+    width: 720px;
+    height: 1080px;
     margin: 0;
     padding: 0;
     
