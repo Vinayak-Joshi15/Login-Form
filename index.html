@@ -10,8 +10,8 @@
     <script src="script.js"></script>
     <div id="all">
         <div class="photo">
-            <div class="header">Re:Life</div>
-            <div class="footer">Photo by <a href="https://unsplash.com/@chrisyangchrisfilm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Yang</a> on <a href="https://unsplash.com/photos/man-walking-between-stores-during-night-time-LA57RXF1mSI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            <div class="header" >Re:Life</div>
+            <div class="footer" >Photo by <a href="https://unsplash.com/@chrisyangchrisfilm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Yang</a> on <a href="https://unsplash.com/photos/man-walking-between-stores-during-night-time-LA57RXF1mSI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
             </div>
         </div>
         <div class="stuff">
@@ -22,35 +22,35 @@
                 <div class="text2">Sign Up <it>NOW</it> to fix all your mistakes</div>
                 
             </div>
-            <form>
+            <form method="POST">
                 <section class="the_form">
                     <h1>Let's Do This!!</h1>
                     <div class="data">
                         <div class="cont">
                             <label for="fname">First Name</label>
-                            <input type="text" name="" id="fname">
+                            <input type="text" name="" id="fname" maxlength="20" required>
                         </div>
                         <div class="cont">
                             <label for="lname">Last Name</label>
-                            <input type="text" id="lname"></div>
+                            <input type="text" id="lname" maxlength="20" required></div>
                     </div>
                     <div class="data"><div class="cont">
                         <label for="email">Email Address</label>
-                            <input type="email" name="" id="email">
+                            <input type="email" name="" id="email" required>
                     </div>
                         <div class="cont">
                             <label for="pnum">Phone Number</label>
-                            <input type="text" id="pnum">
+                            <input type="text" id="pnum" min="10000000000">
                         </div>
                     </div>
                     <div class="data">
                         <div class="cont">
                             <label for="pass">Password</label>
-                            <input type="password" id="pass">
+                            <input type="password" id="pass"required>
                         </div>
                         <div class="cont">
                             <label for="confirm">Confirm Password</label>
-                            <input type="password" name="" id="confirm">
+                            <input type="password" name="" id="confirm" required>
                         </div>
                     </div>
                     
